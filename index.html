@@ -21,14 +21,18 @@
 <div class="wrap">
   <header>
     <a class="logo" href="./">Faceless<span>Stack</span></a>
-    <a class="small muted" href="kit/Faceless-Shorts-Starter-Kit.pdf">Free kit (PDF) →</a>
+    <a class="small muted" href="#kit">Get the free kit →</a>
   </header>
-  <div class="hero">
+  <div class="hero" id="kit">
     <div class="eyebrow">Free · No face · No editing skills</div>
     <h1>Make a faceless Short in under an hour, with AI.</h1>
     <p class="muted">The exact prompts, voice settings and caption presets I use every day, plus what each video actually costs. Copy, paste, publish.</p>
-    <a class="btn" href="kit/Faceless-Shorts-Starter-Kit.pdf" download>Download the free kit (PDF)</a>
-    <p class="small muted" style="margin-top:10px">Free, no sign-up.</p>
+    <form class="signup" action="https://app.kit.com/forms/10103270/subscriptions" method="post">
+      <label class="sr" for="email">Email address</label>
+      <input id="email" type="email" name="email_address" placeholder="you@email.com" autocomplete="email" required>
+      <button class="btn" type="submit">Send me the kit</button>
+    </form>
+    <p class="small muted">Free. One useful email a week. Unsubscribe anytime.</p>
   </div>
   <section>
     <h2>What's inside the kit</h2>
